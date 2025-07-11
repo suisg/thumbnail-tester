@@ -14,7 +14,7 @@
 
 ## 🔗 Live Demo
 
-Ready to boost your CTR? 👉 **Try Thumbnail Tester now:** <https://www.thumbnailtester.app/>
+Ready to boost your CTR? 👉 **Try Thumbnail Tester now:**[Thumbnail Tester](https://www.thumbnailtester.app/)
 
 ---
 
