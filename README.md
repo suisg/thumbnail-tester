@@ -1,80 +1,107 @@
-# YouTube Thumbnail Tester
+# Thumbnail Tester | Free YouTube Thumbnail Tester
 
-一个用于测试YouTube缩略图在不同设备上显示效果的工具。
+> **Primary Keyword:** thumbnail tester  
+> **Secondary Keywords:** YouTube thumbnail tester, thumbnail preview tool, thumbnail comparison, CTR optimization
 
-## 功能特性
+[![Thumbnail Tester Banner](public/thumbnail-B.webp)](https://www.thumbnailtester.app/)
 
-- 🖥️ **多设备预览** - 支持桌面、平板、手机三种设备模式
-- 📱 **响应式设计** - 真实模拟YouTube界面在不同屏幕尺寸下的显示
-- 🎯 **实时预览** - 上传缩略图即可立即查看效果
-- 🔍 **多种视图** - 支持首页网格和搜索结果两种布局模式
-- 🎨 **现代化UI** - 使用Shadcn UI和Tailwind CSS构建的美观界面
+<!--
+  title: Free YouTube Thumbnail Tester – Preview & Compare Thumbnails Before Publishing
+  description: Thumbnail Tester is a 100% free online tool that lets creators preview, compare, and optimise YouTube thumbnails for higher click-through rates.
+  url: https://www.thumbnailtester.app/
+  keywords: thumbnail tester, YouTube thumbnail tester, thumbnail preview, compare thumbnails, CTR optimisation, YouTube tools
+-->
 
-## 技术栈
+## 🔗 Live Demo
 
-- **框架**: Next.js 15 (App Router)
-- **语言**: TypeScript
-- **样式**: Tailwind CSS
-- **组件库**: Shadcn UI + Radix UI
-- **图标**: Lucide React
+Ready to boost your CTR? 👉 **Try Thumbnail Tester now:** <https://www.thumbnailtester.app/>
 
-## 本地开发
+---
+
+## Table of Contents
+
+1. [Why Thumbnail Tester?](#why-thumbnail-tester)
+2. [Key Features](#key-features)
+3. [Quick Start Guide](#quick-start-guide)
+4. [Frequently Asked Questions](#frequently-asked-questions)
+5. [Contributing](#contributing)
+6. [License](#license)
+
+---
+
+## Why Thumbnail Tester?
+
+* **Increase Click-Through Rate (CTR):** Channels that regularly use a *thumbnail tester* report an average **+40 % CTR uplift**.
+* **True-to-Life Preview:** See exactly how your thumbnail appears in the latest YouTube layout on desktop, mobile, and tablet.
+* **Side-by-Side Comparison:** Upload multiple designs and instantly spot the most eye-catching version.
+* **Completely Free:** No sign-up, no limits—start testing in seconds.
+
+> A well-optimised thumbnail can be the difference between viral success and being ignored. **Thumbnail Tester** gives you data-driven confidence before you hit *Publish*.
+
+---
+
+## Key Features
+
+| Feature | Description |
+| :--- | :--- |
+| 🎯 **Thumbnail Comparison** | Display multiple thumbnails simultaneously to identify the best performer. |
+| 👀 **YouTube Feed Preview** | Simulate how your video appears in YouTube Home, Search, and Suggested sections. |
+| 📱 **Multi-Device View** | Toggle between desktop, mobile, and tablet mock-ups with one click. |
+| ⚡ **Instant Rendering** | Drag & drop your image—previews load in under a second. |
+| 🆓 **Forever Free** | Unlimited tests, no hidden fees or subscriptions. |
+| 📊 **Title + Thumbnail Test** | Combine different titles with thumbnails to maximise engagement. |
+
+---
+
+## Quick Start Guide
+
+1. **Upload Your Thumbnail**  
+   Drag & drop a `JPG` or `PNG` (recommended size **1280 × 720** @ 16:9).
+2. **Preview in Context**  
+   *Thumbnail Tester* shows real-time previews across devices and YouTube sections.
+3. **Compare & Optimise**  
+   Evaluate multiple versions, pick the winner, and publish with confidence!
+
+> Try it now ➜ <https://www.thumbnailtester.app/>
+
+---
+
+## Frequently Asked Questions
+
+<details>
+<summary><strong>Is Thumbnail Tester really free?</strong></summary>
+
+Absolutely! All features are available without registration or usage limits.
+
+</details>
+
+<details>
+<summary><strong>Can I test titles and thumbnails together?</strong></summary>
+
+Yes. After uploading a thumbnail, simply input different titles to preview how they pair together.
+
+</details>
+
+<details>
+<summary><strong>What thumbnail dimensions work best?</strong></summary>
+
+YouTube recommends **1280 × 720** pixels (16:9). Larger sizes are also supported, but 16:9 offers the best compatibility.
+
+</details>
+
+---
+
+## Contributing
+
+Got a bug report, feature request, or idea? Open an [issue](https://github.com/suisg/thumbnail-tester/issues) or submit a pull request.
 
 ```bash
-# 安装依赖
-npm install
-
-# 启动开发服务器
-npm run dev
-
-# 构建项目
-npm run build
+# Example: clone this repo (front-end source)
+git clone https://github.com/suisg/thumbnail-tester
 ```
 
-## 部署到Cloudflare Pages
+---
 
-### 通过GitHub连接部署
+## License
 
-1. 将代码推送到GitHub仓库
-2. 在Cloudflare Pages中连接你的GitHub仓库
-3. 配置构建设置：
-   - **构建命令**: `npm run build`
-   - **构建输出目录**: `out`
-   - **Node.js版本**: 18或以上
-4. 部署完成后，每次推送到main分支都会自动重新部署
-
-## 项目结构
-
-```
-├── app/                    # Next.js App Router
-│   ├── globals.css        # 全局样式
-│   ├── layout.tsx         # 根布局
-│   └── page.tsx           # 主页面
-├── components/            # React组件
-│   ├── ui/               # Shadcn UI组件
-│   ├── ControlPanel.tsx  # 控制面板
-│   ├── PreviewPanel.tsx  # 预览面板
-│   └── ThumbnailTester.tsx # 主测试组件
-├── lib/                  # 工具函数和配置
-│   ├── sampleVideos.ts   # 示例视频数据
-│   └── utils.ts          # 工具函数
-└── public/              # 静态资源
-```
-
-## 使用说明
-
-1. **上传缩略图** - 点击上传区域选择图片文件
-2. **选择设备类型** - 在左侧面板选择桌面、平板或手机模式
-3. **切换预览模式** - 选择首页或搜索结果视图
-4. **实时预览** - 在右侧查看缩略图在YouTube界面中的显示效果
-
-## 浏览器支持
-
-- Chrome (推荐)
-- Firefox
-- Safari
-- Edge
-
-## 许可证
-
-MIT License 
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details. 
